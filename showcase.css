@@ -69,6 +69,8 @@
 .course-prices dd { margin: 4px 0 16px; color: var(--dim); }
 .course-prices strong { color: var(--red); font: 600 1.35rem/1.35 var(--garden-type); }
 .grades-feature .purchase-note { font-size: .95rem; }
+.edition-card { display: block; max-width: 23rem; margin: 12px 0 19px; }
+.edition-card img { display: block; width: 100%; height: auto; border-radius: 12px; }
 .grade-screen { padding: clamp(14px, 3vw, 34px); background: var(--mist); }
 .grade-screen picture img { width:auto; height:auto; max-height: min(440px, 47vw); margin:auto; border:1px solid #7a7b6e; border-radius:12px; box-shadow:0 10px 23px -16px #363f2f8f; }
 :lang(zh-Hans) .landing h1, :lang(zh-Hans) .landing h2 { letter-spacing: -.035em; line-height: 1.21; }
