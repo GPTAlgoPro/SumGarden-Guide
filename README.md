@@ -12,4 +12,4 @@ SumGarden is a native arithmetic education app for iPhone and iPad. Practice 58 
 
 ![Practice on a folded and unfolded iPhone Duo](assets/en-duo-promo.png)
 
-[联系开发者 · Contact support](https://github.com/GPTAlgoPro/SumGarden-Guide/issues/new)
+[联系开发者 · Contact support](https://github.com/GPTAlgoPro/SumGarden-Guide/issues/new) · [支持邮箱 · Email support](mailto:sunkai4u@gmail.com)
