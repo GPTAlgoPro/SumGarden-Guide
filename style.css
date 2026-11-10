@@ -1,5 +1,21 @@
+@font-face {
+  font-family: "Garden Yuan";
+  src: url(assets/fonts/yuan-sc-500.woff2) format("woff2");
+  font-weight: 100 599;
+  font-display: swap;
+  unicode-range: U+2E80-9FFF, U+F900-FAFF, U+FF00-FFEF, U+20000-3FFFF;
+}
+@font-face {
+  font-family: "Garden Yuan";
+  src: url(assets/fonts/yuan-sc-700.woff2) format("woff2");
+  font-weight: 600 900;
+  font-display: swap;
+  unicode-range: U+2E80-9FFF, U+F900-FAFF, U+FF00-FFEF, U+20000-3FFFF;
+}
 :root {
   color-scheme: light;
+  --garden-heading: "Garden Yuan", ui-rounded, "Arial Rounded MT Bold", "Avenir Next", system-ui, sans-serif;
+  --garden-type: "Garden Yuan", ui-rounded, "Avenir Next", "Trebuchet MS", system-ui, sans-serif;
   --paper: #fffaf0;
   --ink: #243e34;
   --jade: #286b5b;
@@ -17,11 +33,7 @@ body {
   margin: 0;
   background: var(--paper);
   color: var(--ink);
-  font:
-    17px/1.65 -apple-system,
-    BlinkMacSystemFont,
-    "PingFang SC",
-    sans-serif;
+  font: 500 17px/1.65 var(--garden-type);
 }
 a {
   color: var(--jade);
@@ -79,7 +91,7 @@ nav a,
 h1,
 h2,
 h3 {
-  font-family: Baskervville, "Songti SC", Georgia, serif;
+  font-family: var(--garden-heading);
   line-height: 1.12;
   text-wrap: balance;
   margin: 0;
@@ -124,6 +136,7 @@ h3 {
   box-shadow: inset 0 0 0 1px #e7cda3;
 }
 .hero-art img {
+  height: auto;
   position: relative;
   width: 91%;
   filter: drop-shadow(0 16px 11px #826e4122);
@@ -189,7 +202,7 @@ figcaption {
 }
 .price {
   color: var(--red);
-  font-family: Georgia, serif;
+  font-family: var(--garden-type);
   font-size: 22px;
 }
 .doc {
